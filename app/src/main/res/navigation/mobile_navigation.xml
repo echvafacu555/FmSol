@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="echevasoft.fmsol.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/facebook"
+        android:name="echevasoft.fmsol.ui.slideshow.Facebook"
+        android:label="@string/facebook"
+        tools:layout="@layout/fragment_facebook" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="echevasoft.fmsol.ui.enivarmensaje.EnviarMensaje"
+        android:label="@string/menu_enviar_mensaje"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="echevasoft.fmsol.ui.Compartir.CompartirFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="echevasoft.fmsol.ui.calificar.Calificar"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_calificar" />
+</navigation>

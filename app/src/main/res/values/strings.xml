@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Fm Sol 105.3 Santa Elena</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Fm Sol 105.3</string>
+    <string name="nav_header_subtitle">¡La radio que siempre está con vos!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Salir</string>
+
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_enviar_mensaje">Enviar mensaje</string>
+    <string name="facebook">Visita nuestro Facebook</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_send">Calificar</string>
+    <string name="todo">TODO</string>
+    <string name="track_selection_title" />
+
+
+
+</resources>
